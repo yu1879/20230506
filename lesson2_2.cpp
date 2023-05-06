@@ -17,7 +17,7 @@ int main(){
 //        cout<<"歡迎光臨\n";
 //    else
 //        cout<<"密碼錯誤\n";
-    string pw="aaa";
+    string pw("pc");
     string guess="";
     cout<<"請輸入密碼:";
     cin>>guess;
