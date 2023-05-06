@@ -9,6 +9,9 @@ int *p=new int;
 int a=100;
 cout<<"p儲存的記憶體位址是:"<<p<<endl;
     cout<<"a的記憶體位址是:"<<&a<<endl;
+*p=a;
+    *p=666;
+    cout<<"a="<<a<<",*p的內容為:"<<*p<<endl;
 
 //int *p;
 //int *m;
